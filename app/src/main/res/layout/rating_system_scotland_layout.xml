@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:padding="@dimen/table_paddoing"
+                android:text="Rating" />
+
+            <TextView
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:padding="@dimen/table_paddoing"
+                android:text="Percentage" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:padding="@dimen/table_paddoing"
+                android:text="@string/pass" />
+
+            <TextView
+                android:id="@+id/pass_rating_value"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:padding="@dimen/table_paddoing"
+                tools:text="35%" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:padding="@dimen/table_paddoing"
+                android:text="@string/needs_improvement" />
+
+            <TextView
+                android:id="@+id/need_improvement_value"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:padding="@dimen/table_paddoing"
+                tools:text="65%" />
+        </TableRow>
+
+
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>

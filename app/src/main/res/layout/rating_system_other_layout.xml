@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:padding="@dimen/table_paddoing"
+                android:text="Rating" />
+
+            <TextView
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:padding="@dimen/table_paddoing"
+                android:text="Percentage" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:padding="@dimen/table_paddoing"
+                android:text="@string/five_star" />
+
+            <TextView
+                android:id="@+id/five_star_rating_value"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:padding="@dimen/table_paddoing"
+                tools:text="100%" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:padding="@dimen/table_paddoing"
+                android:text="@string/four_star" />
+
+            <TextView
+                android:id="@+id/four_star_rating_value"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:padding="@dimen/table_paddoing"
+                tools:text="0%" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:padding="@dimen/table_paddoing"
+                android:text="@string/three_star" />
+
+            <TextView
+                android:id="@+id/three_star_rating_value"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:padding="@dimen/table_paddoing"
+                tools:text="0%" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:padding="@dimen/table_paddoing"
+                android:text="@string/two_star" />
+
+            <TextView
+                android:id="@+id/two_star_rating_value"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:padding="@dimen/table_paddoing"
+                tools:text="0%" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:padding="@dimen/table_paddoing"
+                android:text="@string/one_star" />
+
+            <TextView
+                android:id="@+id/one_star_rating_value"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:padding="@dimen/table_paddoing"
+                tools:text="0%" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:padding="@dimen/table_paddoing"
+                android:text="@string/exempt" />
+
+            <TextView
+                android:id="@+id/exempt_rating_value"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:padding="@dimen/table_paddoing"
+                tools:text="0%" />
+        </TableRow>
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>

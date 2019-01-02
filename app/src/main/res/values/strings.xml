@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Food Hygiene ratings app</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="one_star">1-star</string>
+    <string name="two_star">2-star</string>
+    <string name="three_star">3-star</string>
+    <string name="four_star">4-star</string>
+    <string name="five_star">5-star</string>
+    <string name="needs_improvement">Needs Improvement</string>
+    <string name="pass">Pass</string>
+    <string name="exempt">Exempt</string>
+</resources>
